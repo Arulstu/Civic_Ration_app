@@ -1,0 +1,272 @@
+{
+  "users": {
+    "bpl_user_demo": {
+      "name": "Ramesh Kumar",
+      "email": "bpl.beneficiary@ration.gov.in",
+      "phone": "+91 98765 12340",
+      "nfsaId": "NFSA-BPL-88219",
+      "cardType": "BPL",
+      "cardNumber": "4829-1092-8821",
+      "familySize": 4,
+      "isAadhaarLinked": true,
+      "role": "beneficiary",
+      "state": "Tamil Nadu / Uttar Pradesh",
+      "district": "Central Ward 12",
+      "pincode": "600001",
+      "shopId": "shop_42",
+      "shopName": "Ganesh Fair Price Shop #42",
+      "shopAddress": "Ward No. 12, Near Gram Panchayat, Rampur",
+      "shopDealerName": "Ganesh Verma (Authorized FPS Dealer)",
+      "shopDealerPhone": "+91 98765 43210",
+      "familyMembers": [
+        {
+          "name": "Ramesh Kumar",
+          "age": 42,
+          "relation": "Head of Family (Self)",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Sunita Devi",
+          "age": 39,
+          "relation": "Spouse",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Aakash Kumar",
+          "age": 16,
+          "relation": "Son",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Pooja Kumari",
+          "age": 12,
+          "relation": "Daughter",
+          "isAadhaarVerified": true
+        }
+      ],
+      "commodities": {
+        "comm_rice": {
+          "id": "comm_rice",
+          "name": "Fortified Rice (Raw)",
+          "localName": "चावल / அரிசி",
+          "icon": "rice",
+          "quantity": 20.0,
+          "unit": "kg",
+          "pricePerUnit": 0.0,
+          "status": "available",
+          "schemeNote": "NFSA + PMGKAY 100% Subsidized",
+          "category": "Foodgrains"
+        },
+        "comm_wheat": {
+          "id": "comm_wheat",
+          "name": "Whole Wheat (Atta)",
+          "localName": "गेहूं / கோதுமை",
+          "icon": "wheat",
+          "quantity": 15.0,
+          "unit": "kg",
+          "pricePerUnit": 0.0,
+          "status": "available",
+          "schemeNote": "NFSA Monthly Allowance",
+          "category": "Foodgrains"
+        },
+        "comm_sugar": {
+          "id": "comm_sugar",
+          "name": "Refined Sugar",
+          "localName": "चीनी / சர்க்கரை",
+          "icon": "sugar",
+          "quantity": 2.0,
+          "unit": "kg",
+          "pricePerUnit": 13.5,
+          "status": "available",
+          "schemeNote": "State Welfare Scheme",
+          "category": "Essential Staples"
+        },
+        "comm_dal": {
+          "id": "comm_dal",
+          "name": "Toor Dal (Yellow Lentil)",
+          "localName": "अरहर दाल / பருப்பு",
+          "icon": "dal",
+          "quantity": 2.0,
+          "unit": "kg",
+          "pricePerUnit": 30.0,
+          "status": "available",
+          "schemeNote": "Protein Nutrition Subsidy",
+          "category": "Pulses & Legumes"
+        },
+        "comm_oil": {
+          "id": "comm_oil",
+          "name": "Fortified Mustard Oil",
+          "localName": "सरसों तेल / சமையல் எண்ணெய்",
+          "icon": "oil",
+          "quantity": 1.0,
+          "unit": "Litre",
+          "pricePerUnit": 25.0,
+          "status": "available",
+          "schemeNote": "Edible Oil Subsidy",
+          "category": "Cooking Essentials"
+        }
+      }
+    },
+    "aay_user_demo": {
+      "name": "Shanti Devi",
+      "email": "aay.beneficiary@ration.gov.in",
+      "phone": "+91 98765 54321",
+      "nfsaId": "NFSA-AAY-39102",
+      "cardType": "AAY",
+      "cardNumber": "4829-9941-2041",
+      "familySize": 5,
+      "isAadhaarLinked": true,
+      "role": "beneficiary",
+      "state": "Tamil Nadu / Uttar Pradesh",
+      "district": "Central Ward 12",
+      "pincode": "600001",
+      "shopId": "shop_42",
+      "shopName": "Ganesh Fair Price Shop #42",
+      "shopAddress": "Ward No. 12, Near Gram Panchayat, Rampur",
+      "shopDealerName": "Ganesh Verma (Authorized FPS Dealer)",
+      "shopDealerPhone": "+91 98765 43210",
+      "familyMembers": [
+        {
+          "name": "Shanti Devi",
+          "age": 58,
+          "relation": "Head of Family (Antyodaya)",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Kailash Devi",
+          "age": 36,
+          "relation": "Daughter",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Manish",
+          "age": 14,
+          "relation": "Grandson",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Meena",
+          "age": 10,
+          "relation": "Granddaughter",
+          "isAadhaarVerified": true
+        },
+        {
+          "name": "Mohan",
+          "age": 7,
+          "relation": "Grandson",
+          "isAadhaarVerified": false
+        }
+      ],
+      "commodities": {
+        "comm_rice": {
+          "id": "comm_rice",
+          "name": "Fortified Rice (Raw)",
+          "localName": "चावल / அரிசி",
+          "icon": "rice",
+          "quantity": 25.0,
+          "unit": "kg",
+          "pricePerUnit": 0.0,
+          "status": "available",
+          "schemeNote": "AAY Fixed 35kg Quota (Rice portion)",
+          "category": "Foodgrains"
+        },
+        "comm_wheat": {
+          "id": "comm_wheat",
+          "name": "Whole Wheat (Atta)",
+          "localName": "गेहूं / கோதுமை",
+          "icon": "wheat",
+          "quantity": 10.0,
+          "unit": "kg",
+          "pricePerUnit": 0.0,
+          "status": "available",
+          "schemeNote": "AAY Fixed 35kg Quota (Wheat portion)",
+          "category": "Foodgrains"
+        },
+        "comm_sugar": {
+          "id": "comm_sugar",
+          "name": "Refined Sugar",
+          "localName": "चीनी / சர்க்கரை",
+          "icon": "sugar",
+          "quantity": 3.0,
+          "unit": "kg",
+          "pricePerUnit": 13.5,
+          "status": "available",
+          "schemeNote": "AAY Special Concession",
+          "category": "Essential Staples"
+        },
+        "comm_kerosene": {
+          "id": "comm_kerosene",
+          "name": "Subsidized Kerosene",
+          "localName": "मिट्टी तेल / மண்ணெண்ணெய்",
+          "icon": "kerosene",
+          "quantity": 3.0,
+          "unit": "Litre",
+          "pricePerUnit": 15.0,
+          "status": "available",
+          "schemeNote": "Non-LPG Fuel Quota",
+          "category": "Household Fuel"
+        }
+      }
+    }
+  },
+  "shops": {
+    "shop_42": {
+      "id": "shop_42",
+      "name": "Ganesh Fair Price Shop #42",
+      "dealerName": "Ganesh Verma (Authorized FPS Dealer)",
+      "phone": "+91 98765 43210",
+      "address": "Ward No. 12, Near Gram Panchayat, Rampur",
+      "pincode": "600001",
+      "timing": "7:00 AM – 1:00 PM & 3:00 PM – 7:00 PM • Tue - Sun",
+      "isOpen": true,
+      "stockUpdateAgo": "Live Stock: 10 mins ago",
+      "queueCount": 3,
+      "waitTimeMins": 5,
+      "rating": 4.8,
+      "stock": {
+        "rice": { "name": "Fortified Rice", "availableKg": 1450, "totalAllocatedKg": 2500, "unit": "kg" },
+        "wheat": { "name": "Whole Wheat", "availableKg": 920, "totalAllocatedKg": 1800, "unit": "kg" },
+        "sugar": { "name": "Refined Sugar", "availableKg": 210, "totalAllocatedKg": 400, "unit": "kg" },
+        "dal": { "name": "Toor Dal", "availableKg": 180, "totalAllocatedKg": 300, "unit": "kg" },
+        "oil": { "name": "Mustard Oil", "availableKg": 95, "totalAllocatedKg": 200, "unit": "Litre" }
+      }
+    }
+  },
+  "notices": {
+    "notice_01": {
+      "id": "notice_01",
+      "title": "Fresh PMGKAY Wheat & Fortified Rice Stock Arrived",
+      "body": "October quota allocation is now active at Shop #42. Beneficiaries are advised to visit before 20th October to avoid peak queues.",
+      "category": "Stock Arrival",
+      "date": "2026-10-05T08:00:00.000Z",
+      "dealerName": "Ganesh Verma (FPS #42)",
+      "isUrgent": true
+    },
+    "notice_02": {
+      "id": "notice_02",
+      "title": "Aadhaar e-KYC Verification Drive Extended",
+      "body": "Family members without verified biometric status can complete their POS machine e-KYC free of cost during shop hours.",
+      "category": "e-KYC Alert",
+      "date": "2026-10-04T10:30:00.000Z",
+      "dealerName": "Food & Civil Supplies Dept",
+      "isUrgent": false
+    }
+  },
+  "transactions": {
+    "tx_demo_01": {
+      "id": "tx_demo_01",
+      "userId": "bpl_user_demo",
+      "userName": "Ramesh Kumar",
+      "shopId": "shop_42",
+      "shopName": "Ganesh Fair Price Shop #42",
+      "timestamp": "2026-09-12T11:20:00.000Z",
+      "status": "completed",
+      "otpVerified": true,
+      "totalAmount": 0.0,
+      "items": [
+        { "name": "Fortified Rice", "quantity": 20.0, "unit": "kg" },
+        { "name": "Whole Wheat", "quantity": 15.0, "unit": "kg" }
+      ]
+    }
+  }
+}
